@@ -6,7 +6,15 @@ uses
   uCEFTypes,
   CD.Dialog.Main in 'src\Dialogs\CD.Dialog.Main.pas' {DialogMain},
   CD.Thread.Manager in 'src\Threads\CD.Thread.Manager.pas',
-  CD.Thread.Work in 'src\Threads\CD.Thread.Work.pas';
+  CD.Thread.Work in 'src\Threads\CD.Thread.Work.pas',
+  CD.Constants in 'src\Threads\CD.Constants.pas',
+  CD.Url.List in 'src\Entities\CD.Url.List.pas',
+  CD.Chromium.Browser in 'src\Chromium\CD.Chromium.Browser.pas',
+  CD.Interfaces.Chromium.Browser in 'src\Interfaces\CD.Interfaces.Chromium.Browser.pas',
+  CD.Interfaces.Chromium.User in 'src\Interfaces\CD.Interfaces.Chromium.User.pas',
+  CD.Chromium.Tab.List in 'src\Entities\CD.Chromium.Tab.List.pas',
+  CD.Chromium.Tab in 'src\Entities\CD.Chromium.Tab.pas',
+  CD.Dialog.MsgListener in 'src\Dialogs\CD.Dialog.MsgListener.pas' {DialogMsgListener};
 
 {$R *.res}
 

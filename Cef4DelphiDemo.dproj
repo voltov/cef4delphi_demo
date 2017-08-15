@@ -92,6 +92,17 @@
         </DCCReference>
         <DCCReference Include="src\Threads\CD.Thread.Manager.pas"/>
         <DCCReference Include="src\Threads\CD.Thread.Work.pas"/>
+        <DCCReference Include="src\Threads\CD.Constants.pas"/>
+        <DCCReference Include="src\Entities\CD.Url.List.pas"/>
+        <DCCReference Include="src\Chromium\CD.Chromium.Browser.pas"/>
+        <DCCReference Include="src\Interfaces\CD.Interfaces.Chromium.Browser.pas"/>
+        <DCCReference Include="src\Interfaces\CD.Interfaces.Chromium.User.pas"/>
+        <DCCReference Include="src\Entities\CD.Chromium.Tab.List.pas"/>
+        <DCCReference Include="src\Entities\CD.Chromium.Tab.pas"/>
+        <DCCReference Include="src\Dialogs\CD.Dialog.MsgListener.pas">
+            <Form>DialogMsgListener</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
